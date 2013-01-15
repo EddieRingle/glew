@@ -32,13 +32,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <GL/glew.h>
+#include "../include/GL/glew.h"
 #if defined(_WIN32)
-#include <GL/wglew.h>
+#include "../include/GL/wglew.h"
 #elif defined(__APPLE__) && !defined(GLEW_APPLE_GLX)
 #include <AGL/agl.h>
 #else
-#include <GL/glxew.h>
+#include "../include/GL/glxew.h"
 #endif
 
 #ifdef GLEW_MX
